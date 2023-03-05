@@ -1,0 +1,35 @@
+.contactForm {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 300px;
+    padding: 20px;
+  }
+  .inputContact {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+  }
+  .inputContact:focus {
+    outline: none;
+    border-color: purple;
+  }
+  .labelForm:nth-child(n + 2) {
+    margin: 20px 0 10px 0;
+  }
+  .buttonForm {
+    width: 100px;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(145, 145, 145);
+    border-radius: 5px;
+  }
+  .buttonForm:hover {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+  }
+  

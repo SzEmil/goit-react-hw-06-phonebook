@@ -1,0 +1,23 @@
+.contactListItem {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contactListItem:nth-last-child() {
+    margin-bottom: 10px;
+  }
+  .contactListBtn {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+  }
+  .contactListBtn:hover {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+  }
+  
